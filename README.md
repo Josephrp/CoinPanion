@@ -21,6 +21,7 @@ CoinPanion users will have rich profiles which will tell potential coiners about
 # Forward
 This project was started as a submission to the Status.IM Hackathon.
 https://github.com/status-im/hackathon/issues/20
+Pitch deck : https://goo.gl/qj0krZ
 
 # How it works
 

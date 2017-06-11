@@ -14,9 +14,9 @@ Submission: https://github.com/status-im/hackathon/issues/20
 
 # Description
 
-CoinPanion is the ultimate blockchain subscription solution. The idea is that any user can go to CoinPanion, then they can choose to subscribe to any other CoinPanion user's Ethereum Address with a payment of X ETH per Y days/weeks/months.
+CoinPanion is a mobile subscription solution. The idea is that any user can go to CoinPanion, then choose to subscribe to any other CoinPanion user's Ethereum Address with a payment of X ETH per Y days/weeks/months.
 
-CoinPanion users will have rich profiles which will tell potential coiners about themselves and what they create, work on, or are interested in. Coiners can "coin" friends, family members, or content creators whose work they want to support. With category-based discovery features, search, and a user dashboard CoinPanion is the best and easiest to use blockchain subscription service.
+CoinPanion users have rich profiles which will tell potential coiners about themselves and what they create, work on, or are interested in. Coiners can "coin" friends, family members, or content creators whose work they want to support. With category-based discovery features, search, and a user dashboard CoinPanion is the easiest-to-use mobile subscription service.
 
 # Forward
 This project was started as a submission to the Status.IM Hackathon.
@@ -24,16 +24,16 @@ https://github.com/status-im/hackathon/issues/20
 
 # How it works
 
-Simple put: Any `CoinPanion` can subscribe to any other `CoinPanion`.
+Simply put: Any `CoinPanion` can subscribe to any other `CoinPanion`.
+
 ## Use Case 1 - Creators
 
-Rahul is a program. He creates Open Source DApps for free for a better blockchain tomorrow.
+Rahul is a programmer. He creates Open Source DApps for free for a better blockchain tomorrow.
 Rahul however has a family to feed and a home to pay for. He needs a monthly income to be able to continue writing great DApps.
-He goes to CoinPanion, for the first time, and is presented with his dashboard.
+He goes to CoinPanion for the first time, and is presented with his dashboard.
 His Ethereum Address is already filled in as Rahul is using Status to browse the DApp.
-He decides to personalize his profile by uploading a profile picture and setting his name, email and profile description.
-He writes a meaningful description and mentions some of his current projects.
-This will later be used when his supporters go to visit his profile.
+He decides to personalize his profile by uploading a profile picture and setting his name, email and signing a message proving his identity on github. He writes a meaningful description and mentions some of his current projects.
+These will be useful when his supporters go to visit his profile.
 
 Alon loves DApps and the whole crypto community.
 He recently started using one of the Open Source DApps that Rahul made.
@@ -44,14 +44,14 @@ He clicks on Add to CoinVault and sends 2.1 ETH to the CoinVault, a smart contra
 The reason for the extra .1 ETH is for Gas fees.
 This funding will allow Alon to support Rahul for two months.
 
-The he clicks on the button Coin Someone.
+Then he clicks on the button Coin Someone.
 A modal pops up where Alon enters the ETH address of Rahul.
 He enters 1 ETH per month and clicks Send.
 1 ETH is instantly sent from the CoinVault to Rahul.
 The CoinVault also schedules to send another 1 ETH in a month.
 Every time the CoinVault sends a subscription payment, it also schedules the next one.
 
-When the CoinVault starts to get low on currency, will be empty before next payment, it sends an email notification to Alon.
+When the CoinVault starts to get low on currency or will be empty before next payment, it sends a chat message to Alon.
 
 When a CoinVault is empty it stops sending out coins until it is replenished.
 
@@ -115,6 +115,9 @@ Receiving Ether is done with: `alonVaultInstance.collectAuthorizedPayment(xyz, {
 * React
 * WebPack
 * Blockchain - TestRPC or Ropsten
+'''
+
+
 
 # File Structure
 * Src - contains the front-end's source code 
